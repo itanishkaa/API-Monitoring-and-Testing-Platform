@@ -12,7 +12,7 @@ import jakarta.persistence.Id;
 @Entity
 public class UrlMonitor {
     @Id
-    @GeneratedValue(strategy =  GenerationType.IDENTITY)
+    @GeneratedValue(strategy =  GenerationType.AUTO)
     private long id;
 
     private boolean valid;
