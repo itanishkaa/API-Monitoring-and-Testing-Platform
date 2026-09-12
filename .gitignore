@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+*.db
+.env
+__init__.py
+
+# Frontend
+node_modules/
+dist/
+.vite/
+
+# Logs
+*.log
+
+.vscode
